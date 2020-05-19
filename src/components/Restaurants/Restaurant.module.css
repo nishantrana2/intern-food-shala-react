@@ -1,0 +1,33 @@
+.Restaurants {
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 30px;
+    height: 100%;
+    font-weight: 300;
+    color: #282c3f;
+}
+
+.Restaurants h2 {
+    font-weight: 500;
+    color: #282c3f;;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.Card {
+    
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 63px 63px 60px;
+    border: 1px solid #fff;
+    contain: content;
+   text-decoration: none;
+    
+}
+
+.Card a {
+  text-decoration : none;
+}

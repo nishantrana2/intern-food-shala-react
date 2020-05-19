@@ -1,0 +1,24 @@
+.Card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    justify-items: center;
+    row-gap: 5rem;
+
+    width: 80%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    
+
+     font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    color: #282c3f;
+    word-break: break-word;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+}

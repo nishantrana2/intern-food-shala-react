@@ -1,0 +1,67 @@
+.Button {
+  
+    background-color: #795548;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:disabled {
+    cursor: auto;
+    display: none;
+}
+
+.ButtonFill {
+    
+    background-color: #795548;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.ButtonFill:disabled {
+    cursor: not-allowed;
+    background-color: #979797;
+}
+
+.Small {
+    font-size: 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 1rem 3rem;
+    border-radius: .8rem;
+    margin: 0 auto;
+    letter-spacing: .5rem;
+    outline: 0 !important;
+    user-select: none;
+}
+
+.SmallFill {
+    background-color: rgb(55, 72, 156);
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding: 1rem 3rem;
+    border-radius: .8rem;
+    margin: 0 auto;
+    letter-spacing: .5rem;
+    outline: 0 !important;
+    user-select: none;
+}

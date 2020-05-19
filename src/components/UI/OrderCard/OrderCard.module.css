@@ -1,0 +1,56 @@
+.Card {
+    display: flex;
+    width: 30rem;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #b38574;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+
+
+     font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    color: #282c3f;
+    word-break: break-word;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+}
+
+.Products {
+    display: flex;
+    flex-flow: column;
+    
+    padding: 3rem 0;
+    justify-content: space-evenly;
+    width: 80%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box; 
+}
+
+.Product {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+.Footer {
+    display: flex;
+    padding: 3rem 0;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+.Status {
+    display: grid;
+}
