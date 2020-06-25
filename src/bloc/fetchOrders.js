@@ -14,7 +14,7 @@ function fetchOrders(user) {
         dispatch(fetchOrdersPending());
         axios
             .get(
-                `http://localhost:4000/order/${user._id}/${user.accountType}`,
+                `https://intern-api-food.herokuapp.com/order/${user._id}/${user.accountType}`,
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,

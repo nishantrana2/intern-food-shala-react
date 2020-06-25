@@ -7,9 +7,9 @@ import {
 import axios from "axios";
 
 function userSignin(data, accountType) {
-    var URL = "http://localhost:4000/users/authenticate";
+    var URL = "https://intern-api-food.herokuapp.com/users/authenticate";
     if (accountType === "Restaurant") {
-        URL = "http://localhost:4000/clients/authenticate";
+        URL = "https://intern-api-food.herokuapp.com/clients/authenticate";
     }
     return (dispatch) => {
         dispatch(userSigninPending());

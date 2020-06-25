@@ -10,7 +10,7 @@ function fetchProducts(id) {
     return (dispatch) => {
         dispatch(fetchProductsPending());
         axios
-            .get(`http://localhost:4000/menu/${id}`)
+            .get(`https://intern-api-food.herokuapp.com/menu/${id}`)
             .then((res) => res.data)
             .then((products) => {
                 dispatch(fetchProductsSuccess(products));

@@ -8,7 +8,7 @@ function addMenu(data, user) {
 
         dispatch(addMenuPending());
         axios
-            .post(`http://localhost:4000/menu/addMenu`, data, {
+            .post(`https://intern-api-food.herokuapp.com/menu/addMenu`, data, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },

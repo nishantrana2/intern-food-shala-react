@@ -12,7 +12,7 @@ function checkout(data, user) {
 
         dispatch(checkoutPending());
         axios
-            .post(`http://localhost:4000/order/addOrder`, data, {
+            .post(`https://intern-api-food.herokuapp.com/order/addOrder`, data, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
